@@ -1,0 +1,80 @@
+<style>header:hover {
+    color: aqua;
+}
+
+header {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+}
+
+section {
+    border: 1px gray solid;
+    padding: 20px;
+    display: flex;
+
+}
+
+body {
+    background-color: #4FBFA5;
+    height: 2000px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#down {
+    position: absolute right;
+}
+
+
+#blind {
+    background-color: #00868A;
+    width: 400px;
+    padding: 10px
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+#kosmetika {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 70%;
+}
+
+p,
+h1 {
+    font: 18px;
+    color: white;
+    padding-right: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrow {
+    border: 1px white solid;
+}
+
+</style>
