@@ -1,58 +1,80 @@
-<style>header,
-main,
-aside,
-footer {
-    font-weight: bold;
-    border: 1px solid;
+<style>header:hover {
+    color: aqua;
 }
 
 header {
-    background-color: rgb(207, 204, 204);
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
-    display: flex;
-}
-
-.container.main {
-    flex-basis: 70%;
-}
-
-main {
-    background-color: rgb(250, 233, 218);
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.section1 {
-    background-color: peachpuff;
-    border: 1px solid;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-aside {
-    background-color: rgb(151, 231, 151);
+#logo {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+}
+
+section {
+    border: 1px gray solid;
+    padding: 20px;
     display: flex;
+
+}
+
+body {
+    background-color: #4FBFA5;
+    height: 2000px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#down {
+    position: absolute right;
+}
+
+
+#blind {
+    background-color: #00868A;
+    width: 400px;
+    padding: 10px
+}
+
+main {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     flex-basis: 30%;
 }
 
-footer {
-    background-color: rgb(207, 204, 204);
-    padding: 30px;
+#kosmetika {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-basis: 70%;
 }
 
-.section2 {
-    background-color: white;
+p,
+h1 {
+    font: 18px;
+    color: white;
+    padding-right: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.arrow {
+    border: 1px white solid;
 }
 
 </style>
